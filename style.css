@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  background-color:burlywood;
+   color:black;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+  color: white;
+  z-index: 1000; /* Ensure the navbar appears above other content */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: green;
+  font-size: 1rem;
+}
+.left{
+  font-size: 1.5rem;
+  
+  
+}
+.firstsection{
+  display: flex;
+  background-color: burlywood;
+  justify-content: space-around;
+  margin: 150px 0;
+}
+.firstsection div{
+  width: 30%;
+}
+.leftsection{
+  font-size:2rem;
+  justify-content: center;
+  align-items: center;
+
+}
+.rightsection img{
+  width:80%;
+  margin: 50px,0;
+  margin: 0px;
+}
+hr{
+  color: rgba(0, 0, 0, 0.823) ;
+}
+.secondsection{
+  display:flex;
+  justify-content: space-around;
+  max-width: 80vw;
+}
+.secondsection h1{
+  font-size: 3rem;
+}
+.secondsection ul {
+  margin: 40px;
+  justify-content: space-around;
+  line-height: 2.5em;
+  font-size: 2.5em;
+}
+.secondsection div{
+  width:30%;
+}
+.thirdsection {
+  background-color:burlywood;
+  padding: 40px;
+}
+.thirdsection h1{
+  font-size: 3rem;
+}
+
+.left2section,
+.right2section {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: blanchedalmond;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h3 {
+  color: #333;
+}
+
+hr {
+  margin: 40px 0;
+  border: 0;
+  border-top: 2px solid #ddd;
+}
+
+/* Optional: Add hover effect to the boxes */
+.box:hover {
+  box-shadow: 0 0 10px blanchedalmond;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.fourthsection {
+  background-color:burlywood;
+  
+}
+
+h2 {
+  font-size:3rem;
+  color: #333;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width:50%;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-links a:hover {
+  background-color: #ddd;
+}
+footer{
+  margin:20px 20px 30px 30px;
+}
